@@ -1,7 +1,7 @@
-from __future__ import absolute_import, unicode_literals
 from celery import shared_task
 import datetime
 import plaid
+from __future__ import absolute_import, unicode_literals
 from .keys import *
 from .models import Account, Item, Transaction
 from .plaid_client import *
